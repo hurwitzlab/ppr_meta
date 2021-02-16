@@ -1,0 +1,5 @@
+numpy
+h5py
+tensorflow==1.4.1 #CPU version
+# tensorflow-gpu==1.4.1 #GPU version
+keras==2.0.8
