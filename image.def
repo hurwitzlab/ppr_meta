@@ -1,0 +1,11 @@
+BootStrap: docker
+From: hurwitzlab/ppr-meta:0.1.0
+
+%runscript
+    exec PPR_Meta "$@"
+
+# Mounts for Stampede2/TACC
+# %post
+#     mkdir /home1
+#     mkdir /scratch
+#     mkdir /work
